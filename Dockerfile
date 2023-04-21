@@ -2,8 +2,8 @@ FROM golang:latest
 
 WORKDIR /app
 
-COPY . .
+COPY ./app .
 
-RUN go build -o main .
+RUN go build -o main
 
-CMD [ "/app/main" ]
+CMD [ "./main" ]
