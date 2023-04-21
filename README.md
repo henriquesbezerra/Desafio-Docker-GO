@@ -8,6 +8,7 @@ $ docker run henriquesbezerra/fullcyle
 # cmd to build image
 ```cmd
 docker build -t <hub-user>/<repo-name>[:<tag>]
+```
 
 # cmd to tag image
 ```cmd
